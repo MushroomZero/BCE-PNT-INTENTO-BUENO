@@ -1,0 +1,108 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(./img/Bakgrond.jpg);
+    background-size: cover;
+    background-color:gray;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1{
+    padding-left: 8px;
+    font-size: 60px;
+    color:rgba(230, 230, 230, 0.926);
+    text-anchor: 2 px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+   padding-right: 8px;
+    display: flex;
+    text-decoration: none;
+    gap: 1.5rem;
+    font-size: 30px;
+    list-style: none;
+}
+
+article{
+    justify-items: center;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    position: relative;
+}
+
+.buttons{
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    transition-duration: .4s;
+}
+
+
+.buttons:hover{
+    color: black;
+    padding: 20px 10px;
+    background-color: aliceblue;
+}
+
+.contor{
+    align-items: center;
+    justify-content: center;
+}
+
+.cent{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.info{
+    background-color: rgba(212,212,212,0.823);
+    font-size: 30px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.enlace{
+    list-style: none;
+    text-decoration: none;
+}
+
+.septxt{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+img{
+    padding: 20px 20px;
+    border-radius: 10;
+    width: 360px;
+    height: 300px;
+    margin:40px 50px;
+}
+
+
+.chiki{
+    height: 150px;
+    width: 175px;
+    align-items: center;
+}

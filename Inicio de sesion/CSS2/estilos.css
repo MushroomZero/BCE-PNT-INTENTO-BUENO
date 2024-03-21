@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../img/presentexd.jfif);
+    background-size: cover;
+    color:rgb(41, 238, 178);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.userlogin {
+    background-color: #ffffff;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(158,234,16);
+    margin-top: 10%;
+}
+
+.passwordlogin{
+    background-color: rgba(255, 255, 255, 0.799);
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(156,234,16);
+    margin-top: 10%;
+}
+
+.title{
+    font-size: 20px;
+    font-style: italic;
+    color: ;
+}
+
+.buttons{
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+
+.buttons:hover{
+    padding: 25px 10px;
+    background-color: aliceblue;
+}
