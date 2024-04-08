@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(../img2/spectacular.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+h1{
+    font-size: 40px;
+}
+
+.contn{
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    color: white;
+}
+
+.frm{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 40px;
+    padding: 30px 40px;
+}
+
+.espacio {
+    margin-bottom: 30px;
+}
+
+.contn .control {
+    display: flex;
+    height: 35px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 87%, 0.3);
+    color: inherit;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+}
+
+.control {
+    transition: .4s;
+}
+
+.contn .control:focus {
+    border-color: rgba(255, 255, 255, 0.822);
+}
+
+.clc{
+    padding: 15px 30px;
+    background-color: white;
+    background: -webkit-linear-gradient(to left,black,white,black);
+    background: linear-gradient(to left,black,white,black);
+    color: black;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: all 0.3s;
+    transition-duration: 0.3s;
+}
+
+.clc:hover{
+    background-color: black;
+    background: -webkit-linear-gradient(to right,white,black,white);
+    background: linear-gradient(to right,white,black,white);
+    color: white;
+}
+
+.rtn{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+.rtn:hover{
+    background-color: black;
+    color: white;
+}
