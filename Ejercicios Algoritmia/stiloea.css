@@ -1,0 +1,125 @@
+/*
+*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(./img/eva\ 3paps.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 5px 10px;
+}
+
+.space{
+    text-align: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+ul{
+    padding: 8px;
+     list-style: none;
+ }
+
+.enlacem{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.041);
+    font-size: 30px ;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.3s;
+    transition-duration: 1.5s;
+    padding: 10px 40px;
+}
+
+.enlacem:hover{
+    background-color: rgba(255, 69, 69, 0.63);
+    padding: 10px 120px;
+    border-radius: 40px;
+}
+
+.espacio {
+    margin-bottom: 30px;
+}
+
+.frm{
+    background-color: rgba(0, 0, 0, 0.636);
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.contn{
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    color: white;
+}
+.nasti{
+    padding: 10px 40px;
+}
+
+.control{
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(244, 36, 98);
+    transition: all ease 0.3s;
+    transition-duration: 1.5s ;
+    color: rgba(255, 255, 255, 0.678);
+    padding: 1px 10px;
+    background-color: transparent;
+    outline: none;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+}
+.control:focus{
+    border-bottom: 2px solid white;
+}
+
+.clc{
+    font-size: 20px;
+    border: none;
+    padding: 5px 25px;
+    background-color: rgba(194, 0, 194, 0.836);
+    border-radius: 30px;
+    color: white;
+    transition: all ease 0.3s;
+    transition-duration: 0.9s;
+}
+
+.clc:hover{
+    padding: 5px 60px;
+}
+
+.rtn{
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: rgba(0, 255, 0, 0.795);
+    border-radius: 30px;
+    color: black;
+}
+.space2{
+    text-align: center;
+    align-items: center;
+    align-content: space-between;
+    display: flex;
+}

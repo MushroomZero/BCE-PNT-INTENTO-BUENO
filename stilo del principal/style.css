@@ -16,9 +16,10 @@ body{
 
 h1{
     padding-left: 8px;
-    font-size: 60px;
+    font-size: 70px;
     color:rgba(230, 230, 230, 0.926);
     text-anchor: 2 px;
+    background-color: rgba(0, 0, 0, 0.712);
 }
 
 header{
@@ -30,12 +31,13 @@ header{
 }
 
 ul{
-   padding-right: 8px;
-    display: flex;
+    padding: 10px 70px;
     text-decoration: none;
     gap: 1.5rem;
     font-size: 30px;
     list-style: none;
+    align-items: center;
+    text-align: center;
 }
 
 article{
@@ -52,14 +54,18 @@ article{
     color: rgb(255, 255, 255);
     border-radius: 15px;
     text-decoration: none;
+    font-size: 50px;
+    padding: 1px 10px;
     transition: all ease 0.3s;
     transition-duration: .4s;
+    align-items: center;
+    text-align: center;
 }
 
 
 .buttons:hover{
     color: black;
-    padding: 20px 10px;
+    padding: 25px 10px;
     background-color: aliceblue;
 }
 
@@ -69,8 +75,12 @@ article{
 }
 
 .cent{
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
+}
+
+.infcont{
+    padding: 10px 30px;
 }
 
 .info{
@@ -105,4 +115,11 @@ img{
     height: 150px;
     width: 175px;
     align-items: center;
+}
+
+.space{
+    text-align: center;
+    align-items: center;
+    align-content: space-between;
+    display: flex;
 }

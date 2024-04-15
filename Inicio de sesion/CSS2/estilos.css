@@ -6,43 +6,121 @@
 body{
     background-image: url(../img/presentexd.jfif);
     background-size: cover;
-    color:rgb(41, 238, 178);
     display: flex;
     align-items: center;
     flex-direction: column;
     align-content: center;
 }
 
+header{
+    background-color: rgba(255, 255, 255, 0.274);
+    background-size: cover;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: black;
+    border-radius: 25px;
+}
+
 .userlogin {
-    background-color: #ffffff;
     width: 600px;
     height: 50px;
+    font-size: 40px;
     text-align: center;
-    border-radius: 15px solid rgb(158,234,16);
+    align-items: center;
+    align-content: center;
+    background-color: rgba(40, 255, 32, 0.61);
+    border-radius: 15px;
     margin-top: 10%;
 }
 
 .passwordlogin{
-    background-color: rgba(255, 255, 255, 0.799);
     width: 600px;
     height: 50px;
+    font-size: 40px;
     text-align: center;
-    border-radius: 15px solid rgb(156,234,16);
+    align-items: center;
+    align-content: center;
+    background-color: rgba(40, 255, 32, 0.61);
+    border-radius: 15px;
     margin-top: 10%;
 }
 
 .title{
-    font-size: 20px;
+    font-size: 40px;
     font-style: italic;
 }
 
 .buttons{
     border-radius: 5px;
     transition-duration: .5s;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: aqua;
 }
 
+.enlace{
+    text-decoration: none;
+    color: black;
+}
 
 .buttons:hover{
-    padding: 25px 10px;
+    padding: 15px 40px;
+    background-color: aliceblue;
+}
+
+.control{
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.322);
+    font-size: 30px;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.control:focus{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.705);
+}
+
+.squtx{
+    padding: 20px 50px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.space{
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
+}
+
+.buttonpro{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    transition-duration: .5s;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(55, 224, 224);
+}
+
+.buttonpro:hover{
+    padding: 15px 40px;
     background-color: aliceblue;
 }
